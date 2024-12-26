@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step-3</title>
+    <style>
+        body {
+            margin: 50px auto;
+        }
+
+
+
+        fieldset {
+            width: 1000px;
+            height: 600px;
+            margin: 50px auto;
+            font-size: 30px;
+            border: 1px solid black;
+        }
+
+        /* input {
+            height: 35px;
+            width: 600px;
+        } */
+
+        input::placeholder {
+            font-size: 20px;
+        }
+
+        textarea::placeholder{
+            font-size: 20px;
+        }
+
+        select {
+            width: 220px;
+            height: 35px;
+        }
+
+        input[type="file"],
+        input[type="checkbox"] {
+            font-size: 25px;
+        }
+
+        .largerCheckbox {
+            height: 20px;
+            width: 20px;
+        }
+
+        .s-1,
+        .s-2,
+        .s-3 {
+
+            padding: 11px;
+            font-size: 40px;
+
+
+        }
+        button{
+            border: none;
+            background-color: white;
+        }
+
+        .s-1,
+        .s-2 {
+            background-color: rgb(128, 238, 161);
+        }
+
+        .s-3 {
+            background-color: lightskyblue;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+            
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- <center>
+        <h1>step-3: Your Review</h1>
+    </center> -->
+    <center><a href="step1.html" class="s-1">Step 1: Account</a><a href="step2.html" class="s-2"> Step 2: Personal
+        Details</a><a href="step3.html" class="s-3"> Step 3: Your Review</a></center>
+
+    <fieldset>
+        <legend><b>Your Review:</b></legend>
+
+
+        <label for=""><b>How did your hear about us?</b></label>
+        <select name="" id="">
+            <option value="Select your option">Select your option</option>
+        </select> <br><br>
+
+        <label for="Q"><b>whould you visit again?</b></label> <br>
+        <input type="radio" name="Q" id="Yes">
+        <label for="Yes">Yes</label>
+        <input type="radio" name="Q" id="No">
+        <label for="No">No</label>
+        <input type="radio" name="Q" id="Maybe">
+        <label for="Maybe">Maybe</label> <br> <br>
+
+        <label for="Comments"><b>Comments:</b></label><br>
+        <textarea id="Comments" placeholder="Enter your comments" cols="50" rows="5" ></textarea><br>
+
+        <label for="Document"><b>Document:</b></label><br>
+        <input type="file" id="Document"><br><br>
+
+        <input type="checkbox" id="updates" class="largerCheckbox">
+        <label for="updates">Sign me up for email updates</label><br><br>
+
+
+
+        <button><a href="step2.html"><img src="./Images/back.png" alt="" width="200px"></a></button>
+        <button><img src="./Images/submit.png" alt="" width="200px"></a></button>
+
+    </fieldset>
+
+
+
+
+
+</body>
+
+</html>

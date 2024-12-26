@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step-2</title>
+    <style>
+        body {
+            margin: 50px auto;
+        }
+
+        fieldset {
+            width: 1000px;
+            height: 550px;
+            margin: 50px auto;
+            font-size: 30px;
+            border: 1px solid black;
+
+        }
+        button{
+            border: none;
+            background-color: white;
+        }
+
+        input {
+            height: 35px;
+            width: 600px;
+        }
+
+        input::placeholder {
+            font-size: 20px;
+        }
+
+        .s-1,
+        .s-2,
+        .s-3 {
+
+            padding: 11px;
+            font-size: 40px;
+
+
+        }
+
+        .s-1 {
+            background-color: rgb(128, 238, 161);
+        }
+
+        .s-2 {
+            background-color: lightskyblue;
+        }
+
+        .s-3{
+            background-color: rgb(206, 215, 209);
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+            
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- <center><h1>step-2: Personal Details</h1></center> -->
+    <center><a href="step1.html" class="s-1">Step 1: Account</a><a href="step2.html" class="s-2"> Step 2: Personal
+        Details</a><a href="step3.html" class="s-3"> Step 3: Your Review</a></center>
+
+    <fieldset>
+        <legend><b>Personal Details:</b></legend>
+
+        <label for="First Name"><b>First Name:</b></label><br>
+        <input type="text" id="First Name" placeholder="First Name"> <br> <br>
+
+        <label for="Last Name"><b>Last Name:</b></label><br>
+        <input type="text" id="Last Name" placeholder="Last Name"> <br><br>
+
+        <label for="CNIC"><b>CNIC:</b></label><br>
+        <input type="number" id="CNIC" placeholder="Enter CNIC Number"><br><br>
+
+        <label for="Social Link"><b>Social Link:</b></label><br>
+        <input type="text" id="Social Link" placeholder="Enter Facebook/Linkdin profile link"><br><br>
+        <button><a href="step1.html"><img src="./Images/back.png" alt="" width="200px"></a></button>
+        <button><a href="step3.html"><img src="./Images/next.png" alt="" width="200px"></a></button>
+
+    </fieldset>
+
+
+
+
+
+</body>
+
+</html>
